@@ -1,0 +1,1260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>samratbuildingmaterial.com</title>
+
+  
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+ <!-- login page -->
+
+ <form id="login-page" action="action_page.php" method="post">
+  <h2>Login</h2>
+  <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="email address or phone number" name="uname" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Password" name="psw" required>
+      <button type="submit">Log in</button>
+      <label class="login-lable">
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+  </div>
+  <div class="login-forget-container" >
+      <span class="new-user">New User? <a href="#">Signup</a></span>
+      <span class="forget-login-psw"><a href="#">Forget password?</a></span>
+  </div>
+  <span id="close-login-page">X</span>
+</form>
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li>
+            <a href="samratbuildingmaterial.com" class="header-top-link">
+                
+              <span>samratbuildingmaterial.com</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="header-top-link">
+                <i class="fa-solid fa-location-dot" style="color: #f5f5f5;"></i>
+              <address>kalyanpur near kalisthan </address>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <i class="fa-brands fa-square-twitter"></i>
+            </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+
+
+          </ul>
+
+          <button class="header-top-btn">Add Products</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="/img/logo .jpg" alt="Homeverse logo">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="/img/logo .jpg">
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+                <i class="fa-solid fa-xmark" x></i>
+            </button>
+
+          </div>
+
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+              </li>
+
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link>About</a>
+              </li>
+
+              <li>
+                <a href="#service" class="navbar-link" data-nav-link>Service</a>
+              </li>
+
+              <li>
+                <a href="#property" class="navbar-link" data-nav-link>Products</a>
+              </li>
+
+              <li>
+                <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+              </li>
+
+              <li>
+                <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+
+        <div class="header-bottom-actions">
+          <button id="search-icon" class="header-bottom-actions-btn" aria-label="search">
+            <i class="fa-solid fa-magnifying-glass" name="cart-outline"> </i>
+            <span>Search</span>
+          </button>
+         
+          <button id="search-btn" aria-label="search">
+          <input  type="search" id="search-bar" placeholder="search here your products">
+          <i class="fa-solid fa-magnifying-glass" name="search-outline"></i>
+          </button>
+          
+         
+
+          <button id="userBtn" class="header-bottom-actions-btn" aria-label="Profile">
+            <i class="fa-regular fa-user"  name="person-outline"></i>
+           
+            <span>Profile</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" aria-label="Cart">
+            <i class="fa-solid fa-cart-shopping" name="cart-outline"> </i>
+            <span>Cart</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <i class="fa-solid fa-bars" name="menu-outline"></i>
+
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+  
+
+  <main>
+    <article>
+      
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+       
+        <div class="container">
+          
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <ion-icon name="home"></ion-icon>
+
+              <span>Samrat Building Material</span>
+            </p>
+
+            <h2 class="h1 hero-title">Make Your Dream House Strong</h2>
+
+            <p class="hero-text">
+              We have best material for you if you want to make your house storng so contact with us.
+            </p>
+
+            <button class="btn">Choose Your Materials </button>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./img/samrat building logo-Photoroom.png" alt="Modern house model" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./img/why-us-img-2x.png" alt="House interior">
+
+            <!-- <img src="./img/about-banner-2.jpg" alt="House interior" class="abs-img"> -->
+          </figure>
+
+          <div class="about-content">
+
+
+            <h2 class="h2 section-title">The Foundation of Best Quality Materials</h2>
+
+            <p class="about-text">
+              Over 10,000+ people work for us and our Products made with professional engenier,
+              combined with
+              specialist services
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <icon name="home-outline">
+                    <i class="fa-regular fa-star"></i>
+                  </icon>
+                </div>
+
+                <p class="about-item-text">Best Building Products</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <icon name="home-outline">
+                    <i class="fa-regular fa-star"></i>
+                  </icon>
+                </div>
+
+                <p class="about-item-text">Old Exeprience</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <icon name="home-outline">
+                    <i class="fa-regular fa-star"></i>
+                  </icon>
+                </div>
+
+                <p class="about-item-text">Great Building Design </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <icon name="home-outline">
+                    <i class="fa-regular fa-star"></i>
+                  </icon> 
+                </div>
+
+                <p class="about-item-text">Available 24/7 hours</p>
+              </li>
+
+            </ul>
+
+            <p class="callout">
+              "Laying the Groundwork for Excellence: About Us" & <br>
+              "Materials That Build Trust, Relationships That Last"
+
+            </p>
+
+            <a href="#service" class="btn">Our Products</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" id="service">
+        <div class="container">
+
+
+          <h2 class="h2 section-title">Why You Choose us ?</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./img/service-3.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Quality and Reliability</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span></span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./img/service-1.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Innovation and Expertise</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span></span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./img/service-2.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#"> Affordability and Value</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span></span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROPERTY
+      -->
+        
+
+      <section class="property" id="property">
+
+        <div class="container">
+
+
+          <h2 class="h2 section-title">Products</h2>
+
+          <ul class="property-list has-scrollbar">
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./img/cement-Img.jpg" alt="New Apartment Nice View" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">CEMENT</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <address>kalyanpur near kalisthan </address>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$340</strong> /Packet
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Cement</a> 
+                  </h3>
+
+                  <p class="card-text">
+                    best cement products for building materials, known for its high strength and durability.
+                  </p>
+
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./img/samrat building logo-Photoroom.png" alt="Shashikant Singh" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">Shashikant Singh</a>
+                      </p>
+
+                      <p class="author-title">Propriter of This shop</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <i class="fa-solid fa-arrows-up-down"></i>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <i class="fa-solid fa-circle-plus"></i>                    
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./img/steel.jpg" alt="New Apartment Nice View" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">STEEL</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <address>kalyanpur near kalisthan </address>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$65</strong> /KG
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Steel</a> 
+                  </h3>
+
+                  <p class="card-text">
+                    best steel brands for building materials, known for its high strength, durability, and quality.
+                  </p>
+
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./img/samrat building logo-Photoroom.png" alt="Shashikant Singh" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">Shashikant Singh</a>
+                      </p>
+
+                      <p class="author-title">Propriter of This shop</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <i class="fa-solid fa-arrows-up-down"></i>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <i class="fa-solid fa-circle-plus"></i>                    
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./img/bricks.jpg" alt="Our Material Shop" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">BRICK</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <address>kalyanpur near kalisthan </address>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$22</strong>  /Brick
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Bricks</a> 
+                  </h3>
+
+                  <p class="card-text">
+                    the best brick brands for building materials, known for their high quality and strength.
+                  </p>
+
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./img/samrat building logo-Photoroom.png" alt="Shashikant Singh" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">Shashikant Singh</a>
+                      </p>
+
+                      <p class="author-title">Propriter of This shop</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <i class="fa-solid fa-arrows-up-down"></i>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <i class="fa-solid fa-circle-plus"></i>                    
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./img/concrete.webp" alt="Our Building Materials" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">CONCRETE</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <address>kalyanpur near kalisthan </address>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$200</strong>  /Fit
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Concrete</a> 
+                  </h3>
+
+                  <p class="card-text">
+                    the best concrete solutions for building materials, known for its high strength and durability.
+                  </p>
+
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./img/samrat building logo-Photoroom.png" alt="Shashikant Singh" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">Shashikant Singh</a>
+                      </p>
+
+                      <p class="author-title">Propriter of This shop</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> 
+      
+      
+      
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="features">
+        <div class="container">
+
+
+          <h2 class="h2 section-title">Our Main Focus</h2>
+
+          <ul class="features-list">
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <i class="fa-solid fa-truck-pickup"></i>
+                </div>
+
+                <h3 class="card-title">Free Delivery
+                </h3>
+
+                <div class="card-btn">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <i class="fa-solid fa-droplet"></i>
+                </div>
+
+                <h3 class="card-title"> Water Resistance
+</h3>
+
+                <div class="card-btn">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <i class="fa-solid fa-building-shield"></i>
+                </div>
+
+                <h3 class="card-title">Strong Foundations</h3>
+
+                <div class="card-btn">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <i class="fa-solid fa-person-digging"></i>
+                </div>
+
+                <h3 class="card-title">Premium Reliability
+                </h3>
+
+                <div class="card-btn">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <i class="fa-solid fa-handshake"></i>
+                 </div>
+
+                <h3 class="card-title">Friendly Service</h3>
+
+                <div class="card-btn">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <i class="fa-solid fa-hand-holding-dollar"></i>
+                </div>
+
+                <h3 class="card-title">Affordably Price</h3>
+
+                <div class="card-btn">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <i class="fa-solid fa-house-chimney"></i>        
+                </div>
+
+                <h3 class="card-title">Smart Homes</h3>
+
+                <div class="card-btn">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <i class="fa-solid fa-thumbs-up"></i>
+                </div>
+
+                <h3 class="card-title">Support & Service</h3>
+
+                <div class="card-btn">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">News & Blogs</p>
+
+          <h2 class="h2 section-title">Leatest News Feeds</h2>
+
+          <ul class="blog-list has-scrollbar">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./img/eco-friendly Home.webp" alt="eco-friendly " class="w-100">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-content-top">
+
+                   
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">
+                        Building material shops see surge in eco-friendly product requests.
+                        </a>
+                    </h3>
+
+                  </div>
+
+                  <div class="blog-content-bottom">
+                   
+
+                    <a href="#" class="read-more-btn">Read More <pre><i class="fa-solid fa-arrow-right"></i></pre></a>
+                                 
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./img/Builder uses smart technology.avif" alt="New technology reduces waste and saves costs for builders." class="w-100">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-content-top">
+
+                   
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">
+                        New technology reduces waste and saves costs for builders.
+                      </a>
+                    </h3>
+
+                  </div>
+
+                  <div class="blog-content-bottom">
+                   
+
+                    <a href="#" class="read-more-btn">Read More <pre><i class="fa-solid fa-arrow-right"></i></pre></a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./img/graph-down.jpg" alt="New technology reduces waste and saves costs for builders." class="w-100">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-content-top">
+
+                   
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">
+                        Prices for building materials decrease due to increased supply.
+                      </a>
+                    </h3>
+
+                  </div>
+
+                  <div class="blog-content-bottom">
+                   
+
+                    <a href="#" class="read-more-btn">Read More <pre><i class="fa-solid fa-arrow-right"></i></pre></a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta">
+        <div class="container">
+
+          <div class="cta-card">
+            <div class="card-content">
+              <h2 class="h2 card-title">Looking for a Best Material?</h2>
+
+              <p class="card-text">We can help you realize your dream of a new building</p>
+            </div>
+
+            <button class="btn cta-btn">
+              <span>Explore </span>
+
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          
+          <p class="section-text">
+            Building a better future, one material at a time. | Thanks for building with us - we are here to support your next project!
+          </p>
+
+          <ul class="contact-list">
+
+            <li>
+              <a href="#" class="contact-link">
+                <i class="fa-solid fa-location-dot"></i>
+                <address>kalyanpur, barauli, gopalganj Bihar</address>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+0123456789" class="contact-link">
+                <i class="fa-solid fa-phone"></i>
+                <span>+91 1234567890</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:contact@homeverse.com" class="contact-link">
+                <i class="fa-solid fa-envelope"></i>
+                <span>contact@samratbuildingmaterial.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-facebook"></i> 
+                
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-square-twitter"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-instagram"></i>             
+              </a>
+            </li>
+
+          
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Company</p>
+            </li>
+
+            <li>
+              <a href="#about" class="footer-link">about</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="footer-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#property" class="footer-link">All Products</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Locations Map</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact us</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Services</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Order tracking</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Wish List</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Login</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">My account</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Promotional Offers</a>
+            </li>
+
+          </ul>
+          
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Customer Care</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Login</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">My account</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Wish List</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Order tracking</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact us</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#">samratbuildingmaterial</a>. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  
+
+</body>
+
+</html>
